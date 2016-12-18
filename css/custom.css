@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Raleway;
+}
+/*header-area CSS*/
+
+.header-area{
+    width: 100%;
+    min-height: 755px;;
+    background-image: url(../images/header_bg.jpg);
+    background-size: cover;
+}
+
+.logo{
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon-bar{
+    background:white;
+}
+.logo a span{
+     color: #ebd305;
+}
+
+.navbar-nav {
+    float: right;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.navbar-nav li{
+     padding: 12px;
+}
+.navbar-nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-nav li a:hover{
+    color:darkgrey;
+}
+
+b{
+  color: white;
+}
+
+/*header-area CSS end*/
+
+
+/*header-text CSS*/
+
+.header-text{
+    font-family: Raleway;
+    color: #ffffff;
+    margin-top: 160px;
+}
+
+.header-text h1{
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+.header-text h1 b{
+    font-weight: 100;
+}
+
+.header-text h1 span{
+    color: #ebd305;
+}
+
+.header-text p{
+    margin-bottom: 80px;
+    font-family: Raleway;
+    font-weight: 100;
+    color: #ffffff;
+    font-size: 16px;
+}
+.header-text a{
+    text-decoration: none;
+    color: #ebd305;
+}
+
+.header-text a:hover{
+    background: #2b2b2b;
+    color: ghostwhite;
+}
+.btn-filled{
+   z-index: 1;
+   position: relative;
+   border: 1px solid #ffffff;
+   font-size: 14px;
+   color: #ebd305;
+   padding: 15px 40px;
+    font-weight: 400;
+}
+
+.btn-filled:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    content: "";
+    z-index: -1;
+}
+
+/*header-text CSS end*/
+
+/*Who we are  CSS area */
+.who_we{
+    background-image: url(../images/line.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 40px;
+    font-family: Raleway;
+    font-size: 30px;
+    margin-top: 85px;
+}
+
+.who_we h2{
+    font-weight: 100;
+}
+
+.who_we h2 span{
+    font-weight: bold;
+}
+
+.para{
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+/*Who we are  CSS area end */
+
+/*portfolio-area  CSS */
+
+.portfolio-area{
+    background: #ebd305;
+    margin-top: 40px;
+}
+
+.portfolio_one{
+    background-image: url(../images/circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px;
+}
+
+.portfolio-area h3{
+    color: black;
+}
+
+.portfolio-area p{
+    color: white;
+    margin: 40px 0px;
+}
+.portfolio_2{
+    background: #000000;
+    color: white;
+}
+
+.portfolio_2 h3{
+    color: white;
+}
+.portfolio_two{
+    background:url(../images/circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px;
+}
+
+
+
+.portfolio_three{
+    background-image: url(../images/circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px;
+}
+
+
+
+.portfolio_four{
+    background-image: url(../images/circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px;
+    
+}
+/*portfolio-area  CSS end */
+
+
+/*introduction-area  CSS  */
+.icon_area img{
+    width: 40px;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+.icon_area p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.line-bg{
+    background-image: url(../images/line.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding: 40px;
+}
+
+.line-bg span{
+    font-weight: bold;
+}
+
+.ceo_area img{
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+.ceo_area h2{
+    margin-top: 40px;
+}
+.ceo_area p{
+    font-size: 14px;
+    font-weight: 200;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    font-style: italic;
+}
+
+.line_carosel{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.line_carosel img{
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+/*introduction-area  CSS end */
+
+/*blog-area  CSS */
+.blog-area{
+    width: 100%;
+    min-height: 642px;
+    background-image: url(../images/slide2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog-area-head{
+    background-image: url(../images/white-line.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 100;
+    margin-top: 60px;
+}
+
+.blog-area-head span{
+    font-weight: bold;
+}
+
+.blog{
+
+}
+
+.blog img{
+    width: 289px;
+    min-height: 189px;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    margin-left: 20px;
+    background-position: center;
+    position: relative;
+}
+
+.blog .blog_title {
+    position: absolute;
+    top: 210px;
+    left: 50px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.blog-area p{
+    margin-top: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.social_icon{
+    font-size: 18px;
+    padding: 20px
+}
+
+
+.social_icon a i{
+    font-size: 18px;
+    color: #ffffff;
+    padding:20px 10px;
+}
+/*blog-area  CSS end */
+
+/*footer-area  CSS*/
+
+#footer-header{
+    width: 100%;
+    min-height: 100px;
+    background-color: #131313 ;
+}
+
+.subscription-area{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.subscription-text{
+    color: #ffffff;
+}
+
+form .input-group input[type=text]{
+    background-color: #0a0a0a;
+    color: #373737;
+    padding: 22px;
+    border: none;
+}
+
+form .input-group .subs {
+    padding: 12px;
+    background-color: #ebd305;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+}
+
+#footer-area{
+    width: 100%;
+    min-height: 451px;
+    background-image:url(../images/last_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer-area .twitter-feed-area{
+    margin-top: 60px;
+}
+
+#footer-area .logo-hints h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#footer-area .logo-hints h4 span{
+    color: #ebd305;
+}
+
+#footer-area .twitter-feed-area p{
+    color: #424242;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.useful-links a i{
+    font-size: 18px;
+    color: #ffffff;
+    padding:20px 10px;
+    margin-top: 40px;
+}
+
+.useful-links a span i{
+    color: #ebd305;
+}
+
+.twitter-feed{
+    background-image: url(../images/twit_line.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 6px;
+    margin-left: 2px;
+}
+
+#special{
+    font-style: italic;
+    color: #b6b6b6;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.twitter-feed-area a{
+    text-decoration: none;
+}
+
+.special{
+   color: #b6b6b6;
+   border-bottom: 1px solid #b6b6b6;
+   font-style: italic;
+}
+
+.links{
+    margin-top: 10px;
+}
+.links h5{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #242424;
+    padding: 7px;
+}
+/*footer-area  CSS end*/
+
+
